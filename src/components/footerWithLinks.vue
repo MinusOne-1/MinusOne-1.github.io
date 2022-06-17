@@ -23,7 +23,7 @@ footer {
   justify-content: center;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  background-color: cornflowerblue;
+  background-color: #7b82d3;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px;

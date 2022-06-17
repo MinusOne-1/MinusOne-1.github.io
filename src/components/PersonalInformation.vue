@@ -24,7 +24,9 @@ export default defineComponent({
 
 .flexboxMain {
   background-position: bottom;
-  background-image: url("./IMG/photo_2022-06-02_00-30-29.png");
+  background-image: url("./IMG/background_gragiend.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -40,11 +42,12 @@ export default defineComponent({
   margin-bottom: auto;
   max-height: 300px;
   border-radius: 8px;
-  background: skyblue;
+  background: #7b82d3;
   text-decoration: none;
   display: block;
   padding: 1em;
   flex-grow: 4;
+
 
 }
 
