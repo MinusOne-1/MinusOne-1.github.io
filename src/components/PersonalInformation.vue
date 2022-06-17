@@ -8,13 +8,16 @@ export default defineComponent({
 
 <template>
   <div class="flexboxMain">
-    <div id="text">
-      <p>test github Hello, everyone! I`m programmer with such stack:</p>
-      <ul id="langs">
-        <li>Python</li>
-        <li>C++</li>
-        <li>Java</li>
-      </ul>
+    <div id="information">
+      <h1>Yan Lapa</h1>
+      <div id="text">
+        <span id="span-text">Hello, everyone! I`m programmer with such stack:</span>
+        <ul id="langs">
+          <li>Python</li>
+          <li>C++</li>
+          <li>Java</li>
+        </ul>
+      </div>
     </div>
     <img id="image" src="./IMG/photo_2022-06-02_00-30-29.png">
   </div>
@@ -34,21 +37,22 @@ export default defineComponent({
   margin-right: 30px;
 }
 
-.flexboxMain > #text {
+#information {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+}
+
+.flexboxMain > #information > #text {
   position: relative;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: auto;
+  margin-right: 5%;
+  margin-top: 10%;
   margin-bottom: auto;
-  max-height: 300px;
   border-radius: 8px;
-  background: #7b82d3;
+  background: #a0a6e3;
   text-decoration: none;
   display: block;
-  padding: 1em;
-  flex-grow: 4;
-
-
+  max-height: 300px;
 }
 
 .flexboxMain > #image {
@@ -58,9 +62,29 @@ export default defineComponent({
   text-decoration: none;
 }
 
+#langs {
+  font-size: 1.4rem;
+}
+
+#span-text {
+  font-size: 1.4rem;
+}
 
 ul #langs {
   position: relative;
   top: 30%;
+}
+
+h1 {
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #a0a6e3;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 </style>
