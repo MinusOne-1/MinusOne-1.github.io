@@ -1,9 +1,10 @@
 <template>
-  <div class="menu">
-    Menu
-    <button class="menu">Personal Page</button>
-    <button class="menu">Using Api</button>
-  </div>
+  <header class="panel">
+    <div class="menu">
+      <button class="menu">Personal Page</button>
+      <button class="menu">Using Api</button>
+    </div>
+  </header>
 </template>
 
 <script>
@@ -15,17 +16,33 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+header.panel {
+  background: #c5c6ee;
+  border-radius: 8px;
+
+}
+
 div.menu {
+  position: relative;
+  margin-left: auto;
+  margin-right: 5px;
   display: flex;
   flex-direction: row;
-  background: #a0a6e3;
-  height: 200%;
+  justify-content: end;
+  background: #c5c6ee;
+  max-width: 500px;
 }
 
 button.menu {
+  position: relative;
+  font-size: 1.7rem;
   background: #a0a6e3;
   border: none;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button.menu:hover {
