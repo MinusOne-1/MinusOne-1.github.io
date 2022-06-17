@@ -1,5 +1,6 @@
 <template>
   <footer>
+    ggggggggggggggggggggggg
     <p id="textINeedToBeCenter">You can contact me there: LAnnaIg03@yandex.ru or</p>
     <a id="textINeedToBeCenter" href="https://github.com/MinusOne-1"><img id="textINeedToBeCenter"
                                                                           src="./IMG/GitHub32logo.png"></a>
