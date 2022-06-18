@@ -1,13 +1,13 @@
 <template>
   <header class="panel">
     <div class="menu">
-      <button class="menu">Personal Page</button>
-      <button class="menu">Using Api</button>
+      <button class="menu" onclick="window.location.href = '/index';">Personal Page</button>
+      <button class="menu" onclick="window.location.href = '/apiUser';">Using Api</button>
     </div>
   </header>
 </template>
 
-<script>
+<script lang="ts">
 import {defineComponent} from "vue"
 
 export default defineComponent({
